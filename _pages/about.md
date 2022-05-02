@@ -12,3 +12,5 @@ I am a researcher at Toshiba Cambridge Research Lab. Before joining Toshiba I ob
 
 Please see the publications page for a detailed publication list. A [CV](http://shucongzhang.github.io/files/shucong_cv_.pdf) is also avaliable. 
 
+Contact: dacong001[AT]hotmail.com
+
