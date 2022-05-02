@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Shucong Zhang"
+  name             : "Dr Shucong Zhang"
   avatar           : "profile.png"
-  bio              : "Researcher in Automatic Speech Recognition and Deep Learning"
+  bio              : #"Researcher in Automatic Speech Recognition and Deep Learning"
   location         : "Cambridge, UK"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
