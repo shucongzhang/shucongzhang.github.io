@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Shucong Zhang"
+title                    : "Dr Shucong Zhang"
 title_separator          : "-"
 name                     : &name "Dr Shucong Zhang"
 description              : &description "Researcher in Automatic Speech Recognition and Deep Learning"
