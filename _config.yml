@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Shucong Zhang"
 title_separator          : "-"
-name                     : &name "Shucong Zhang"
+name                     : &name "Dr Shucong Zhang"
 description              : &description "Researcher in Automatic Speech Recognition and Deep Learning"
 url                      : https://shucongzhang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Dr Shucong Zhang"
+  name             : " "
   avatar           : "profile.png"
   bio              : #"Researcher in Automatic Speech Recognition and Deep Learning"
   location         : "Cambridge, UK"
