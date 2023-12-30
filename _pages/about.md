@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a researcher at _Toshiba Cambridge Research Lab_. Before joining Toshiba I obtained my PhD degree from _University of Edinburgh_. My primary area of work is in automatic speech recognition (ASR). I am particularly interested in end-to-end ASR. 
+I am a researcher scientist at _Samsung AI Centre Cambridge(https://research.samsung.com/aicenter_cambridge)_. Before joining Toshiba I obtained my PhD degree from _University of Edinburgh_. My primary area of work is in automatic speech recognition (ASR). I am particularly interested in end-to-end ASR. 
 
 Please see the publications page for a detailed publication list. A [CV](http://shucongzhang.github.io/files/shucong_cv_.pdf) is also avaliable. 
 
