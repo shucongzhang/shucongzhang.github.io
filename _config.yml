@@ -173,9 +173,6 @@ kramdown:
   enable_coderay: false
 # Collections
 collections:
-  cv:
-    output: true
-    permalink: /:collection/:path/
   teaching:
     output: false
     permalink: /:collection/:path/
