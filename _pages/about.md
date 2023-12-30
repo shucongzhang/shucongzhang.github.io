@@ -8,9 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-I am a researcher scientist at _Samsung AI Centre Cambridge(https://research.samsung.com/aicenter_cambridge)_. Before joining Toshiba I obtained my PhD degree from _University of Edinburgh_. My primary area of work is in automatic speech recognition (ASR). I am particularly interested in end-to-end ASR. 
+Hello! I am a Researcher Scientist at [Samsung AI Centre Cambridge](https://research.samsung.com/aicenter_cambridge) (2022-), focusing on addressing speech processing problems from the on-device and efficiency angle. 
 
-Please see the publications page for a detailed publication list. A [CV](http://shucongzhang.github.io/files/shucong_cv_.pdf) is also avaliable. 
+I obtained my PhD degree from <ins>University of Edinburgh</ins> (2017-2021) under the supervision of Prof. [Steve Renals](https://homepages.inf.ed.ac.uk/srenals/index.html), Dr. [Peter Bell](https://homepages.inf.ed.ac.uk/pbell1/), and Dr. [Erfan Loweimi](https://eloweimi.github.io/).  
+
+My expertise includes:
+* End-to-end speech recognition 
+* Self-supervised learning for speech processing
+* Speech enhancement. 
+
+Please see the publication page for a **one-liner description** about each publication.
 
 **Contact**: dacong001[AT]hotmail.com
 
