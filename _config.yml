@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : " "
-  avatar           : "images/profile.png"
+  avatar           : "profile.png"
   bio              : #"Researcher in Automatic Speech Recognition and Deep Learning"
   location         : "Cambridge, UK"
   employer         :
