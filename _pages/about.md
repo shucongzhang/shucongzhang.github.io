@@ -19,7 +19,7 @@ My expertise includes:
 * Self-supervised learning for speech processing
 * Speech enhancement. 
 
-Please see the publication page for a **one-liner description** about each publication.
+For more details, please visit the publication page. It categorizes papers based on their research topics and includes a **one-liner description** for each publication.
 
 **Contact**: dacong001[AT]hotmail.com
 
