@@ -60,6 +60,19 @@ $(document).ready(function(){
   // init smooth scroll
   $("a").smoothScroll({offset: -20});
 
+   // hide sidebar
+   $(window).scroll(function() {
+        var scrollSensitiveElements = $('.scroll-sensitive');
+        if ($(this).scrollTop() > 0) {
+            // User has scrolled down, hide the elements
+            scrollSensitiveElements.addClass('hidden');
+        } else {
+            // User is at the top of the page, show the elements
+            scrollSensitiveElements.removeClass('hidden');
+        }
+   });
+   
+
   // add lightbox class to all image links
   $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
 
