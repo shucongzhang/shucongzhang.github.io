@@ -27,7 +27,8 @@ $(document).ready(function(){
   $(".sticky").Stickyfill();
 
   var stickySideBar = function(){
-    var show = $(".author__urls-wrapper button").length === 0 ? $(window).width() > 1024 : !$(".author__urls-wrapper button").is(":visible");
+    // var show = $(".author__urls-wrapper button").length === 0 ? $(window).width() > 1024 : !$(".author__urls-wrapper button").is(":visible");
+    var show = false;
     // console.log("has button: " + $(".author__urls-wrapper button").length === 0);
     // console.log("Window Width: " + windowWidth);
     // console.log("show: " + show);
@@ -64,6 +65,7 @@ $(document).ready(function(){
    $(window).scroll(function() {
         var scrollSensitiveElements = $('.scroll-sensitive');
         if ($(this).scrollTop() > 0) {
+           console.log('scrolled!!')
             // User has scrolled down, hide the elements
             scrollSensitiveElements.addClass('hidden');
         } else {
