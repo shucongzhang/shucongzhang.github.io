@@ -24,10 +24,11 @@ $(document).ready(function(){
   $("#main").fitVids();
 
   // init sticky sidebar
-  $(".sticky").Stickyfill();
+  // $(".sticky").Stickyfill();
 
   var stickySideBar = function(){
-    var show = $(".author__urls-wrapper button").length === 0 ? $(window).width() > 1024 : !$(".author__urls-wrapper button").is(":visible");
+    // var show = $(".author__urls-wrapper button").length === 0 ? $(window).width() > 1024 : !$(".author__urls-wrapper button").is(":visible");
+    var show = false;
     // console.log("has button: " + $(".author__urls-wrapper button").length === 0);
     // console.log("Window Width: " + windowWidth);
     // console.log("show: " + show);
@@ -44,11 +45,11 @@ $(document).ready(function(){
     }
   };
 
-  stickySideBar();
+  // stickySideBar();
 
-  $(window).resize(function(){
-    stickySideBar();
-  });
+  //$(window).resize(function(){
+    //stickySideBar();
+  // });
 
   // Follow menu drop down
 
@@ -59,6 +60,20 @@ $(document).ready(function(){
 
   // init smooth scroll
   $("a").smoothScroll({offset: -20});
+
+   // hide sidebar
+   $(window).scroll(function() {
+        var scrollSensitiveElements = $('.scroll-sensitive');
+        if ($(this).scrollTop() > 0) {
+           console.log('scrolled!!')
+            // User has scrolled down, hide the elements
+            scrollSensitiveElements.addClass('hidden');
+        } else {
+            // User is at the top of the page, show the elements
+            scrollSensitiveElements.removeClass('hidden');
+        }
+   });
+   
 
   // add lightbox class to all image links
   $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");

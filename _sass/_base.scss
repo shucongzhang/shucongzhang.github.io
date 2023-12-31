@@ -10,7 +10,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  padding-bottom: 9em;
+  padding-bottom: 0em;
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
@@ -138,7 +138,7 @@ li > code,
 figcaption > code,
 td > code {
   padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
+  padding-bottom: 0.0rem;
   font-size: $type-size-6;
   background: $code-background-color;
   border: 1px solid $lighter-gray;
@@ -157,7 +157,7 @@ hr {
   display: block;
   margin: 1em 0;
   border: 0;
-  border-top: 1px solid $border-color;
+  border-top: 1.5px solid $text-color;
 }
 
 /* lists */
