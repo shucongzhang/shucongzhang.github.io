@@ -1,7 +1,7 @@
 {% include base_path %}
 
 {% if page.author_profile or layout.author_profile or page.sidebar %}
-  <div class="sidebar sticky">
+  <div class="sidebar sticky scroll-sensitive">
 <!--     or layout.author_profile -->
   {% if page.author_profile %}{% include author-profile.html %}{% endif %}
   {% if page.sidebar %}
