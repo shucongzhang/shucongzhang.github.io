@@ -17,8 +17,10 @@ author_profile: true
 
 This page includes a TL;DR for each paper. For a "clean" list of publications, please to [my Goole Scholar](https://scholar.google.com/citations?hl=en&user=ZK1dMoYAAAAJ&view_op=list_works) 
 
-<h1>2023</h1>
+<h1>The (Un)usefulness of Attention Mechanisms for Speech Recognition</h1>
 <hr/>
+<br/>**Introduction**: Although attention-based models, especially Transformer variants, have been shown to provide outstanding performance in automatic speech recognition (ASR), it is questionable whether attention is necessary for ASR. The reasoning is straightforward: when recognizing a current word, humans do not rely on words spoken tens of seconds later by the speaker, yet attention mechanisms do. Currently, our linear models have outperformed both Branchformer and Conformer models, achieving state-of-the-art (SOTA) ASR results across five different languages and three distinct acoustic conditions. 
+
 **S. Zhang**, M. Chadwick, AGCP. Ramos, T. Parcollet, R. van Dalen, S. Bhattacharya. "[Real-Time Personalised Speech Enhancement Transformers with Dynamic
 Cross-attended Speaker Representation](https://www.isca-speech.org/archive/pdfs/interspeech_2023/zhang23r_interspeech.pdf)" **INTERSPEECH**
 <br/>**TL;DR**: We demonstrate that the cross-attention mechanism, despite its apparent computational expense, is more effective than conventional static single-vector approaches in learning speaker representations. Consequently, speech enhancement systems based on cross-attention outperform traditional models, achieving better performance with a smaller model size, which in turn results in faster speech inference.
