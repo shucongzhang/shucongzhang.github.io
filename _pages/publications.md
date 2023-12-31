@@ -18,6 +18,7 @@ author_profile: true
 This page includes a TL;DR for each paper. For a "clean" list of publications, please to [my Goole Scholar](https://scholar.google.com/citations?hl=en&user=ZK1dMoYAAAAJ&view_op=list_works) 
 
 # 2023
+<hr/>
 **S. Zhang**, M. Chadwick, AGCP. Ramos, T. Parcollet, R. van Dalen, S. Bhattacharya. "[Real-Time Personalised Speech Enhancement Transformers with Dynamic
 Cross-attended Speaker Representation](https://www.isca-speech.org/archive/pdfs/interspeech_2023/zhang23r_interspeech.pdf)" **INTERSPEECH**
 <br/>**TL;DR**: We demonstrate that the cross-attention mechanism, despite its apparent computational expense, is more effective than conventional static single-vector approaches in learning speaker representations. Consequently, speech enhancement systems based on cross-attention outperform traditional models, achieving better performance with a smaller model size, which in turn results in faster speech inference.
@@ -36,10 +37,12 @@ Self-supervised Representations of French Speech](https://arxiv.org/pdf/2309.054
 
 
 # 2022
+<hr/>
 M. Li, **S. Zhang**, C. Zorila, R. Doddipatla. “[Transformer-based Streaming ASR with Cumulative Attention.](https://arxiv.org/pdf/2203.05736.pdf)” **ICASSP**
 <br/>**TL;DR**: We enhance the performance of Transformer-based encoder-decoder streaming speech recognition systems, achieving improvements in both speed and accuracy.
 
 # 2021
+<hr/>
 **S. Zhang**, E. Loweimi, P. Bell, S. Renals. “[On the Usefulness of Self-Attention for Automatic Speech Recognition with Transformers.](https://arxiv.org/pdf/2011.04906.pdf)” **IEEE Spoken Language Technology Workshop (SLT)**
 <br/>**TL;DR**: We unveil that for Transformer-based speech recognition systems, some self-attention layers can behave similarly to and can be replaced by linear layers. (Subsequent works show a similar conclusion has also been observed for state-of-the-art (SOTA) speech recognition systems based on [Conformer](https://openreview.net/pdf?id=AvcfxqRy4Y) and [Branchformer](https://arxiv.org/pdf/2207.02971.pdf).)
 
@@ -50,6 +53,7 @@ M. Li, **S. Zhang**, C. Zorila, R. Doddipatla. “[Transformer-based Streaming A
 <br/>**TL;DR**: We show that not all attention heads are necessary in Transformer-based speech recognition systems. Removing attention heads randomly during training can improve the performance of state-of-the-art (SOTA) Transformer and Conformer speech recognition models. 
    
 # 2020
+<hr/>
 **S. Zhang**, C. Do, R. Doddipatla, S. Renals. “[Learning Noise Invariant Features Through Transfer Learning for Robust End-to-End Speech Recognition.](https://www.pure.ed.ac.uk/ws/portalfiles/portal/138528386/Learning_Noise_Invariant_ZHANG_DOA24012020_AFV.pdf)” **ICASSP**
 <br/>**TL;DR**: We show the upper layers (near the output) of the neural-based speech recognition models are more robust to noise and thus can be used to guide the lower layers of the network to learn noise-invariant features.
 
@@ -57,6 +61,7 @@ C. Do, **S. Zhang**, T. Hain. “[Selective Adaptation of End-to-End Speech Reco
 <br/>**TL;DR**: “With a constraint on computational budget, we benchmark which part of LSTM-based speech recognition systems is the most effective for noise-robust adaptation using a very limited amount data (about 2.4 minutes).”
 
 # 2019
+<hr/>
 **S. Zhang**, E. Loweimi, P. Bell, S. Renals. “[Windowed attention mechanisms for speech recognition.](https://www.pure.ed.ac.uk/ws/portalfiles/portal/80931064/WINDOWED_ATTENTION_MECHANISMS_FOR_SPEECH_RECOGNITION.pdf)” **ICASSP**
 <br/>**TL;DR**: For the attentional encoder-decoder speech recognition system, we demonstrate restricting the attention mechanism to attend to a window of input frames with trained window length and shift will improve the accuracy and reduce the time complexity.  
 
