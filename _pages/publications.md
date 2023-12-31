@@ -26,7 +26,7 @@ T. Parcollet, **S. Zhang**, R. van Dalen, AGCP. Ramos, S. Bhattacharya. "[On the
 Self-Supervised Speech Representation Learning](https://hal.science/hal-04116371/document)" **INTERSPEECH**
 <br/>**TL;DR**: We carefully design the feature extractor frontend for self-supervised speech processing models, successfully reducing the minimum hardware requirements for training state-of-the-art (SOTA) models from A100 GPUs to RTX 3090 GPUs.
 
-T. Parcollet*, R. van Dalen*, **S. Zhang***, S Bhattacharya (* equal contribution). "[Sumformer: A Linear-Complexity Alternative to
+T. Parcollet^, R. van Dalen^, **S. Zhang^**, S Bhattacharya (^ equal contribution). "[Sumformer: A Linear-Complexity Alternative to
 Self-Attention for Speech Recognition](https://arxiv.org/pdf/2307.07421.pdf)" (preprint. Paper to be updated soon.)
 <br/>**TL;DR**: Our proposed linear alternative to self-attention reduces the VRAM usage by half and the training/inference time by up to 28%, while it outperforms the current state-of-the-art (SOTA) speech recognition models in English, French, Italian, Chinese, and Dutch datasets under three different acoustic conditions. The benefits can also be generalized to speech understanding.
 
