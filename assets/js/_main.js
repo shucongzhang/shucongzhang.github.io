@@ -44,7 +44,7 @@ $(document).ready(function(){
     }
   };
 
-  stickySideBar();
+  // stickySideBar();
 
   $(window).resize(function(){
     stickySideBar();
