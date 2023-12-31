@@ -18,6 +18,7 @@ author_profile: true
 This page includes a TL;DR for each paper. For a "clean" list of publications, please to [my Goole Scholar](https://scholar.google.com/citations?hl=en&user=ZK1dMoYAAAAJ&view_op=list_works) 
 
 <h1>2023</h1>
+<hr/>
 **S. Zhang**, M. Chadwick, AGCP. Ramos, T. Parcollet, R. van Dalen, S. Bhattacharya. "[Real-Time Personalised Speech Enhancement Transformers with Dynamic
 Cross-attended Speaker Representation](https://www.isca-speech.org/archive/pdfs/interspeech_2023/zhang23r_interspeech.pdf)" **INTERSPEECH**
 <br/>**TL;DR**: We demonstrate that the cross-attention mechanism, despite its apparent computational expense, is more effective than conventional static single-vector approaches in learning speaker representations. Consequently, speech enhancement systems based on cross-attention outperform traditional models, achieving better performance with a smaller model size, which in turn results in faster speech inference.
